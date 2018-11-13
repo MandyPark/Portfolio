@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@import url(fonts.css);
+
+html, body { width: 100%; height: 100%; }
+html { position: fixed; }
+body { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; font-size: 13px; line-height: 1.5; color: #222; position: relative; }
+::selection { color: #fff; background-color: #222; }
+
+/* 좌측 헤더 */
+header { width: 170px; height: 100%; text-align: center; float: left; }
+header h1 { font-family: 'Amatic SC',cursive; font-size: 30px; text-transform: uppercase; transform: rotate(-90deg); position: absolute; top: 50%; left: 74px; }
+header h1 a { color: #222; }
+
+/* 우측 메뉴 */
+nav { width: 118px; height: 100%; float: right; background: #f6f6f6; }
+.gnb { width: 188px; float: left; transform: rotate(90deg); transform-origin: 100% 0%; position: absolute; top: 220px; right: 50px; }
+.gnb li { width: 74px; height: 18px; font-family: 'Raleway', sans-serif; font-size: 24px; text-transform: capitalize; margin-right: 40px; float: left; overflow: hidden; } 
+.gnb li:last-child { margin: 0; }
+
+.gnb a { color: #222; }
+.gnb span { width: 100%; height: 18px; text-align: center; display: block; transition: .3s;  }
+.gnb span.default { transform: translateY(-26px); }
+.gnb span.hover { font-weight: 700; transform: translateY(-26px); }
+.gnb a:hover .default { transform: translateY(-8px); }
+.gnb a:hover .hover { transform: translateY(-8px); }
+.copy { width: 250px; color: #aaa; text-align: right; text-transform: uppercase; transform: rotate(90deg); transform-origin: 0% 100%; position: absolute; bottom: 290px; right: -185px; }
+
+/* Contents Area */
+.wrap { height: 100%; float: left; position: relative; }
+
+/* Works */
+.works { width: 64%; height: 100%; position: absolute; top: 0; left: 0; }
+.wrap2 { width: 100%; height: 100%; position: relative; overflow: hidden; }
+.wrap2 > p { width: 18px; height: 33px; position: absolute; top: 50%; bottom: 50%; margin: auto; z-index: 600; }
+.prev { left: 75px; }
+.next { right: 75px; }
+.page { position: absolute; bottom: 50px; right: 50px; z-index: 500; }
+.page p { float: left; }
+.page .now { font-weight: bold; margin-right: 5px; }
+.page .total { margin-left: 5px; }
+.workImg { width: 100%; height: 100%; }
+.workImg li { width: 100%; height: 100%; background-color: #fff; position: relative; }
+.workImg li img { position: absolute; top: 50%; bottom: 50%; left: 50%; right: 50%; margin: auto; transform: translateX(-50%); }
+
+/* About Txt */
+content { width: 36%; height: 100%; position: absolute; top: 0; right: 0; }
+.explain { width: 100%; height: 100%; }
+.explain li { width: 100%; height: 100%; background-color: #f6f6f6; position: relative; }
+.aboutTxt { height: 300px; position: absolute; left: 100px; top: 50%; bottom: 50%; margin: auto; }
+content h2 { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; font-size: 33px; font-weight: bold; text-indent: -5px; letter-spacing: -2px; }
+content h3 { font-family: 'Raleway', sans-serif; font-size: 14px;  font-weight: 700; }
+content p { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; line-height: 30px; letter-spacing: -1px; margin-top: 50px; }
+
