@@ -39,6 +39,7 @@ $(function(){
 		// 다음 번호로 바뀜
 		pageNum += 1;
 		if(pageNum>pageTotal){ // 마지막페이지를 넘기면 첫페이지로
+			pageNum = 1;
 			$(".workImg li").first().appendTo(".workImg");
 			$(".explain li").first().appendTo(".explain");
 			$("p.now").text(pageNum);
