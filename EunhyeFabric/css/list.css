@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* 상품 리스트 */
+.allProduct {  }
+
+.allProduct h2 { font-size: 26px; font-weight: bold; text-transform: uppercase; text-align: center; margin: 40px auto 30px; }
+
+.category { width: 100%; text-align: center; }
+.category li { display: inline-block; font-size: 13px; margin-bottom: 20px; margin-right: 40px; }
+.category li:last-child { margin-right: 0; }
+
+.sort { text-align: right; clear: both; margin-bottom: 50px; }
+#sort { width: 100px; height: 23px; border: 1px solid #e1e1e1; box-sizing: border-box; font-size: 12px; text-transform: uppercase; padding-bottom: 1px; }
+#sort option:hover { height: 23px; background-color: #e1e1e1; }
+
+.productList { width: 100%; overflow: hidden; }
+.productList li { float: left; margin-right: 24px; margin-bottom: 75px; }
+.productList li:nth-child(4n) { margin-right: 0; }
+.productList h3 { text-align: center; margin-top: 20px; }
+p.priceArea { font-weight: bold; text-align: center; }
+p.priceArea span.won { padding-right: 3px; }
+
+.more { width: 140px; height: 50px; margin: 20px auto 60px; font-family: 'Noto Sans KR','Malgun Gothic','맑은 고딕',dotum,'돋움', sans-serif; font-size: 20px; font-weight: 500; color: #fff; text-align: center; line-height: 50px; background-color: #f57a9a; cursor: pointer; }
+.more:hover { background-color: #e14466; }
+
+/* wish */
+.thumbnail > div { cursor: pointer; }
+.thumbnail { position: relative; }
+.wish { width: 40px; height: 40px; border-radius: 50%; background: #fff url(../images/wish_not.png) no-repeat center; box-sizing: border-box; box-shadow: 0 0 5px rgba(0,0,0,.15); text-indent: -9999%; position: absolute; bottom: 10px; right: 10px; }
+.wishon { background: #fff url(../images/wish.png) no-repeat center; }
+
+
+@media all and (max-width:414px) {
+	.allProduct h2 { margin: 30px auto 20px; }
+	.sort { display: none; }
+	.category { margin: 0 auto 40px; }
+
+	/* 상품 리스트 */
+	.productList li { width: 47.82608%; margin-right: 0; margin-bottom: 20px; }
+	.productList li:nth-child(even) { float: right; }
+	.productList h3 { letter-spacing: -1px; }
+	.wish { bottom: 15px; }
+	.thumbnail img { width: 100%; height: 100%; } 
+}
+
+@media all and (max-width:320px) {
+
+}

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="autor" content="박혜진">
+		<meta name="description" content="박혜진의 반응형 쇼핑몰 포트폴리오 페이지입니다.">
+		<meta name="keywords" content="은혜직물, 쇼핑몰, 반응형, 포트폴리오">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<title>恩惠織物 ::  BEDDING</title>
+		<link rel="stylesheet" href="common/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/list.css">
+		<style></style>
+		<script src="common/jquery-3.3.1.min.js"></script>
+		<script src="common/prefixfree.min.js"></script>
+	</head>
+	<body id="go_top">
+		<!-- 탑내비 -->
+		<nav>
+			<div class="navarea">
+				<ul class="nav">
+					<li class="login"><a href="#">로그인 / 회원가입 &or;</a>
+						<ul class="persnalMenu">
+							<li class="arrow">arrow</li>
+							<li><a href="#">마이페이지</a></li>
+							<li><a href="#">주문 / 배송</a></li>
+							<li><a href="#">상품평</a></li>
+							<li><a href="#">즐겨찾기</a></li>
+							<li><a href="#">위시리스트</a></li>
+						</ul>
+					</li>
+					<li class="go"><a href="#"><img src="images/icon_wish.png" alt="wish"></a></li>
+					<li class="go go_cart"><a href="#"><img src="images/icon_cart.png" alt="cart"><span class="cart">0</span></a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<!-- 로고 + 메뉴 -->
+		<header>
+			<h1><a href="index.html">恩惠織物 은혜직물</a></h1>
+			<ul class="gnb">
+				<li><a href="list.html"><span>new arrival</span></a></li>
+				<li><a href="list.html"><span>bedding</span></a>
+				</li>
+				<li><a href="list.html"><span>bag & pouch</span></a></li>
+				<li><a href="list.html"><span>fashion</span></a></li>
+				<li><a href="list.html"><span>kitchen</span></a></li>
+				<li><a href="list.html"><span>deco</span></a></li>
+				<li><a href="list.html"><span>jeju</span></a></li>
+				<li><a href="list.html"><span>sale</span></a></li>
+				<li>
+					<input type="text" name="search" maxlength="15" value="Search" class="search">
+					<p id="search"><img src="images/icon_searh.png" alt="search_btn"></p>
+				</li>
+			</ul>
+			<div class="menuBg">
+				<div class="menu" id="menu1">
+					<ul>
+						<li><a href="#">이불/패드</a><br>
+							<ul>
+								<li><a href="#">차렵이불</a></li>
+								<li><a href="#">홑이불</a></li>
+								<li><a href="#">패드</a></li>
+								<li><a href="#">메밀베개</a></li>
+							</ul>
+						</li>
+						<li><a href="#">커버</a><br>
+							<ul>
+								<li><a href="#">이불 커버 세트</a></li>
+								<li><a href="#">이불 커버</a></li>
+								<li><a href="#">매트리스 커버</a></li>
+								<li><a href="#">베개 커버</a></li>
+								<li><a href="#">쿠션 커버</a></li>
+							</ul>
+						</li>
+						<li><a href="#">충전재</a><br>
+							<ul>
+								<li><a href="#">이불솜</a></li>
+								<li><a href="#">베개솜</a></li>
+								<li><a href="#">쿠션솜</a></li>
+							</ul>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner01.jpg" alt="미니배너3"></div>
+								<p>십장생 이불커버 검정</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner02.jpg" alt="미니배너4"></div>
+								<p>십장생 메밀베개</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="menu" id="menu2">
+					<ul>
+						<li><a href="#">가방</a><br>
+							<ul>
+								<li><a href="#">에코백</a></li>
+								<li><a href="#">토트백</a></li>
+								<li><a href="#">클러치백</a></li>
+							</ul>
+						</li>
+						<li><a href="#">파우치</a><br>
+							<ul>
+								<li><a href="#">지퍼 파우치</a></li>
+								<li><a href="#">주머니 파우치</a></li>
+								<li><a href="#">프레임 파우치</a></li>
+							</ul>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner01.jpg" alt="미니배너5"></div>
+								<p>십장생 이불커버 검정</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner02.jpg" alt="미니배너6"></div>
+								<p>십장생 메밀베개</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="menu" id="menu3">
+					<ul>
+						<li><a href="#">의류</a><br>
+							<ul>
+								<li><a href="#">티셔츠</a></li>
+								<li><a href="#">맨투맨/후드</a></li>
+								<li><a href="#">원피스</a></li>
+								<li><a href="#">파자마/가운</a></li>
+							</ul>
+						</li>
+						<li><a href="#">패션소품</a><br>
+							<ul>
+								<li><a href="#">스카프</a></li>
+								<li><a href="#">손수건</a></li>
+								<li><a href="#">양말</a></li>
+							</ul>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner01.jpg" alt="미니배너7"></div>
+								<p>십장생 이불커버 검정</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner02.jpg" alt="미니배너8"></div>
+								<p>십장생 메밀베개</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="menu" id="menu4">
+					<ul>
+						<li><a href="#">앞치마/주방장갑</a><br>
+							<ul>
+								<li><a href="#">앞치마</a></li>
+								<li><a href="#">주방장갑</a></li>
+							</ul>
+						</li>
+						<li><a href="#">주방소품</a><br>
+							<ul>
+								<li><a href="#">테이블매트</a></li>
+								<li><a href="#">키친발매트</a></li>
+								<li><a href="#">냄비받침</a></li>
+								<li><a href="#">코스터</a></li>
+							</ul>
+						</li>
+						<li><a href="#">냅킨/빨대</a><br>
+							<ul>
+								<li><a href="#">냅킨</a></li>
+								<li><a href="#">빨대</a></li>
+							</ul>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner01.jpg" alt="미니배너9"></div>
+								<p>십장생 이불커버 검정</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner02.jpg" alt="미니배너10"></div>
+								<p>십장생 메밀베개</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="menu" id="menu5">
+					<ul>
+						<li><a href="#">문구 소품</a><br>
+							<ul>
+								<li><a href="#">마스킹 테이프</a></li>
+								<li><a href="#">패브릭 스티커</a></li>
+								<li><a href="#">패턴리본</a></li>
+								<li><a href="#">스티커</a></li>
+							</ul>
+						</li>
+						<li><a href="#">포장</a><br>
+							<ul>
+								<li><a href="#">포장지</a></li>
+								<li><a href="#">봉투</a></li>
+								<li><a href="#">선물상자</a></li>
+								<li><a href="#">종이가방</a></li>
+								<li><a href="#">카드/편지지</a></li>
+							</ul>
+						</li>
+						<li><a href="#">노트/다이어리</a><br>
+							<ul>
+								<li><a href="#">노트</a></li>
+								<li><a href="#">다이어리</a></li>
+								<li><a href="#">포스트잇/메모지</a></li>
+							</ul>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner01.jpg" alt="미니배너9"></div>
+								<p>십장생 이불커버 검정</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+						<li class="miniBan">
+							<a href="#">
+								<div><img src="images/mini_banner02.jpg" alt="미니배너10"></div>
+								<p>십장생 메밀베개</p>
+								<p class="shopnow1">shop now</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<!-- 모바일 메뉴 -->
+		<div class="mmenubg">
+			<!-- 1depth -->
+			<ul class="mmenuwrap">
+				<li class="login"><div class="close"><img src="images/btn_menu_close.png" alt="close"></div><a href="#">로그인 / 회원가입</a></li>
+				<li>
+					<ul class="mmenu">
+						<li><a href="list.html">new arrival</a></li>
+						<li><a href="list.html">bedding</a></li>
+						<li><a href="list.html">bag & pouch</a></li>
+						<li><a href="list.html">fashion</a></li>
+						<li><a href="list.html">kitchen</a></li>
+						<li><a href="list.html">deco</a></li>
+						<li><a href="list.html">jeju</a></li>
+						<li><a href="list.html">sale</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="mpersnalMenu">
+						<li><a href="#"><img src="images/icon_ps_mypage.png" alt="my page">마이페이지</a></li>
+						<li><a href="#"><img src="images/icon_ps_del.png" alt="delivery">주문 / 배송</a></li>
+						<li><a href="#"><img src="images/icon_ps_review.png" alt="review">상품평</a></li>
+						<li><a href="#"><img src="images/icon_ps_bmk.png" alt="bookmark">즐겨찾기</a></li>
+						<li><a href="#"><img src="images/icon_ps_wish.png" alt="wish">위시리스트</a></li>
+					</ul>
+				</li>
+				<li class="menubtm"></li>
+			</ul>
+		</div>
+
+		<!-- 모바일 탑 -->
+		<div class="mgnb">
+			<h1><a href="index.html">은혜직물</a></h1>
+			<div class="go go_menu"><img src="images/icon_menu.png" alt="menu"></div>
+			<div class="go go_cart"><a href="#"><img src="images/icon_cart.png" alt="cart"><span class="cart">0</span></a></div>
+		</div>
+		<!-- 모바일 검색 -->
+		<div class="msearchbox">
+			<input type="text" name="search" maxlength="15" value="Search" class="msearch">
+			<p id="msearch"><img src="images/icon_searh.png" alt="search_btn"></p>
+		</div>
+		
+		<!-- wrap -->
+		<div class="wrap">
+			<!-- 탑배너 -->
+			<div class="topBan"><a href="list.html"><img src="images/top_banner.jpg" alt="탑배너" title="2 Years Anniversary :: All Product 20% Sale"></a></div>
+			<!-- 모바일 탑배너 -->
+			<div class="mtopBan"><a href="list.html"><img src="images/mtop_banner.jpg" alt="탑배너" title="2 Years Anniversary :: All Product 20% Sale"></a></div>
+
+			<!-- Products List -->
+			<div class="allProduct">
+				<h2>bedding</h2>
+				<ul class="category">
+					<li><a href="#">이불/패드</a></li>
+					<li><a href="#">커버</a></li>
+					<li><a href="#">충전재</a></li>
+				</ul>
+				<div class="sort">
+					<select id="sort">
+						<option value="lowprice">정렬기준</option>
+						<option value="lowprice">low price</option>
+						<option value="highprice">high price</option>
+						<option value="newest">newest</option>
+						<option value="ratings">ratings</option>
+					</select>
+				</div>
+				<ul class="productList">
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro01.jpg" alt="상품1" title="상품1"></a>
+						</div>
+						<h3><a href="product.html">십장생 이불커버 검정</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">123,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro02.jpg" alt="상품2" title="상품2"></a>
+						</div>
+						<h3><a href="product.html"><a href="product.html">파도 순면 파우치</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">7,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro03.jpg" alt="상품3" title="상품3"></a>
+						</div>
+						<h3><a href="product.html">십장생 메밀베개 검정</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">24,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro04.jpg" alt="상품4" title"상품4"></a>
+						</div>
+						<h3><a href="product.html">동물원 순면 메밀베개 연밤색</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">24,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro05.jpg" alt="상품5" title"상품5"></a>
+						</div>
+						<h3><a href="product.html">파란 사각 순면 쿠션 방석 커버</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">28,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro06.jpg" alt="상품6" title="상품6"></a>
+						</div>
+						<h3><a href="product.html">마 린넨 쿠션 방석 커버</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">24,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro07.jpg" alt="상품7" title="상품7"></a>
+						</div>
+						<h3><a href="product.html">십장생 아이보리 린넨 쿠션</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">34,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro08.jpg" alt="상품8" title="상품8"></a>
+						</div>
+						<h3><a href="product.html">십장생 네이비 린넨 쿠션</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">34,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro01.jpg" alt="상품1" title="상품1"></a>
+						</div>
+						<h3><a href="product.html">십장생 이불커버 검정</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">123,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro02.jpg" alt="상품2" title="상품2"></a>
+						</div>
+						<h3><a href="product.html"><a href="product.html">파도 순면 파우치</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">7,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro03.jpg" alt="상품3" title="상품3"></a>
+						</div>
+						<h3><a href="product.html">십장생 메밀베개 검정</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">24,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro04.jpg" alt="상품4" title"상품4"></a>
+						</div>
+						<h3><a href="product.html">동물원 순면 메밀베개 연밤색</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">24,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro05.jpg" alt="상품5" title"상품5"></a>
+						</div>
+						<h3><a href="product.html">파란 사각 순면 쿠션 방석 커버</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">28,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro06.jpg" alt="상품6" title="상품6"></a>
+						</div>
+						<h3><a href="product.html">마 린넨 쿠션 방석 커버</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">24,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro07.jpg" alt="상품7" title="상품7"></a>
+						</div>
+						<h3><a href="product.html">십장생 아이보리 린넨 쿠션</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">34,000</span></a></p>
+					</li>
+					<li>
+						<div class="thumbnail">
+							<div class="wish">wish</div>
+							<a href="product.html"><img src="images/pro08.jpg" alt="상품8" title="상품8"></a>
+						</div>
+						<h3><a href="product.html">십장생 네이비 린넨 쿠션</a></h3>
+						<p class="priceArea"><a href="product.html"><span class="won">₩</span><span class="price">34,000</span></a></p>
+					</li>
+				</ul>
+				<div class="more">More</div>
+			</div>
+		</div>
+		
+		<!-- 푸터 -->
+		<footer>
+			<div class="pageFooter">
+				<ul class="summary">
+					<li>category
+						<ul>
+							<li><a href="list.html">bedding</a></li>
+							<li><a href="list.html">bag & pouch</a></li>
+							<li><a href="list.html">fashion</a></li>
+							<li><a href="list.html">kitchen</a></li>
+							<li><a href="list.html">deco</a></li>
+						</ul>
+					</li>
+					<li>imformation
+						<ul>
+							<li><a href="list.html">회사소개</a></li>
+							<li><a href="list.html">공지사항</a></li>
+							<li><a href="list.html">오시는길</a></li>
+						</ul>
+					</li>
+					<li>support
+						<ul>
+							<li><a href="list.html">FAQ</a></li>
+							<li><a href="list.html">고객센터</a></li>
+							<li><a href="list.html">개인결제</a></li>
+							<li><a href="list.html">회원등급혜택</a></li>
+						</ul>
+					</li>
+					<li>sns
+						<ul>
+							<li><a href="https://www.facebook.com/eunhyefabric" target="_blank">facebook</a></li>
+							<li><a href="https://www.instagram.com/eunhyefabric" target="_blank">instagram</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="company">
+				<p>대표전화 : +82-070-4001-4020<span class="tbar">|</span>E-mail : <a href="eunhyefabric@gmail.com" target="_blank">eunhyefabric@gmail.com</a></p>
+				<p>상호명 : 맨션팩토리<span class="tbar">|</span>대표 : 강정주<span class="tbar">|</span>주소 : 서울시 마포구 희우정로 117-1 2층 은혜직물</p>
+				<p class="copy">© 2016-2018 은혜직물. All Rights Reserved.</p>
+			</div>
+			<ul class="msummary">
+				<li><a href="#">마이페이지</a></li>
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">고객센터</a></li>
+			</ul>
+			<div class="toppage"><a href="#go_top">TOP OF PAGE ^</a></div>
+			<div class="mcompany">
+				<p>대표전화 : +82-070-4001-4020</p>
+				<p>E-mail : <a href="eunhyefabric@gmail.com" target="_blank">eunhyefabric@gmail.com</a></p>
+				<p>상호명 : 맨션팩토리<span class="tbar">|</span>대표 : 강정주</p>
+				<p>주소 : 서울시 마포구 희우정로 117-1 2층 은혜직물</p>
+				<p class="copy">© 2016-2018 은혜직물. All Rights Reserved.</p>
+			</div>
+		</footer>
+
+		<script src="js/basic.js"></script>
+
+	</body>
+</html>

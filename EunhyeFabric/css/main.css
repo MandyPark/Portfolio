@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* 모바일 숨기기 */
+.mproBan03, .pinkbar { display: none; }
+
+/* 주간 베스트 */
+.weeklyBest { width: 100%; padding: 50px 0; border-bottom: 1px solid #e1e1e1; }
+.weeklyBest h2 { font-family: 'Noto Serif KR','바탕체', serif; font-size: 30px; text-align: center; text-transform: capitalize; }
+.weeklyBest h2 span { color: #e14466; }
+.weeklyBest .productList { width: 100%; overflow: hidden; }
+.weeklyBest .productList li { float: left; margin-right: 24px; }
+.weeklyBest .productList li:last-child { margin-right: 0; }
+.weeklyBest h3 { text-align: center; margin-top: 20px; }
+.weeklyBest p.priceArea { font-weight: bold; text-align: center; }
+.weeklyBest p.priceArea span.won { padding-right: 3px; }
+/* wish */
+.thumbnail > div { cursor: pointer; }
+.thumbnail { position: relative; }
+.wish { width: 40px; height: 40px; border-radius: 50%; background: #fff url(../images/wish_not.png) no-repeat center; box-sizing: border-box; box-shadow: 0 0 5px rgba(0,0,0,.15); text-indent: -9999%; position: absolute; bottom: 10px; right: 10px; }
+.wishon { background: #fff url(../images/wish.png) no-repeat center; }
+
+/* 배너들 */
+section { width: 492px; margin: 50px 0 60px; float: left; }
+section h3 { font-family: 'Noto Serif KR','바탕체', serif; font-size: 40px; text-align: center; text-transform: capitalize; margin-top: 20px; }
+section p { text-align: center; margin-top: 15px; }
+section p.shopnow2 { width: 100px; font-family: 'Noto Sans KR','Malgun Gothic','맑은 고딕',dotum,'돋움', sans-serif; font-size: 20px; font-weight: 700; text-transform: capitalize; color: #e14466; border-bottom: 2px solid #e14466; margin: 15px auto 0; }
+.proBan01 { margin-right: 40px; }
+.proBan02 { padding-top: 168px; background: url(../images/bg_object.png) no-repeat right top; }
+.proBan03 { width: 100%; height: 400px; float: left; }
+/* 돌아가는 상품리스트 - Swiper 수정 */
+.swiper-container {
+    width: 492px; height: 658px; margin: 0 auto; border-width: 1px 0 1px 0; border-color: #e1e1e1; border-style: solid;
+  }
+  .swiper-slide {
+    text-align: center; font-size: 18px; background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+section.rollimgPro { margin-right: 40px; overflow: hidden; position: relative; }
+div.pvnx { width: 36px; height: 36px; border-radius: 50%; text-indent: -9999%; position: absolute; top: 310px; cursor: pointer; }
+.swiper-button-prev { background: #e14466 url(../images/btn_prev.png) no-repeat center; left: 0; }
+.swiper-button-next { background: #e14466 url(../images/btn_next.png) no-repeat center; right: 0; }
+.swiper-pagination { margin-bottom: 25px; }
+
+/* 상품타이틀과 리스트 */
+.pro4th { width: 1024px; height: 590px; position: relative; }
+.pro4th li { width: 290px; height: 290px; position: absolute; }
+.pro4th li:nth-child(1) { top: 0; left: 300px; } /* 타이틀이미지 */
+.pro4th li:nth-child(2) { top: 0; left: 0; }
+.pro4th li:nth-child(3) { bottom: 0; left: 0; }
+.pro4th li:nth-child(4) { top: 0; right: 0; }
+.pro4th li:nth-child(5) { bottom: 0; right: 0; }
+.pro4th li div.proInfo { width: 290px; height: 290px; background: rgba(0,0,0,.5); color: #fff; position: absolute; opacity: 0; transition: .2s; }
+.pro4th li div.proInfo h4 { font-size: 16px; text-align: center; margin-top: 125px; }
+.pro4th li div.proInfo p.tpriceArea { font-size: 14px; font-weight: bold; margin-top: 0; }
+.pro4th li:hover div.proInfo { opacity: 1; }
+
+
+
+@media all and (max-width:414px) {
+
+	.mmainBan, .pinkbar { display: block; }
+
+	/* 메인배너 */
+	.mmainBan { width: 100%; }
+	.mmainBan div.banimg { width: 348px; height: 390px; margin: 15px auto; }
+	.mmainBan div.banimg img { width: 100%; }
+	.mmainBan h3 { font-family: 'Noto Serif KR','바탕체', serif; font-size: 32px; font-weight: 600; text-align: center; color: #0c151b; margin-top: 30px; }
+	.mmainBan p { font-family: 'Noto Serif KR','바탕체', serif; font-size: 14px; font-weight: 500; text-align: center; text-transform: uppercase; line-height: 20px; letter-spacing: 0; color: #0c151b; }
+	.mmainBan p.subtit { letter-spacing: 3px; }
+
+	/* 주간 베스트 */
+	.weeklyBest { padding: 0; border: 0; }
+	.weeklyBest h2 { margin-bottom: 30px; }
+	.weeklyBest .productList li { width: 47.82608%; margin-right: 0; margin-bottom: 20px; }
+	.weeklyBest .productList li:nth-child(even) { float: right; }
+	.weeklyBest .productList li:nth-child(3) { margin-bottom: 0; }
+	.weeklyBest .productList li:nth-child(4) { margin-bottom: 0; }
+	.weeklyBest .productList h3 { letter-spacing: -1px; }
+	.wish { bottom: 15px; }
+	.thumbnail img { width: 100%; height: 100%; } 
+
+	/* 배너들 */
+	section p.shopnow2, section.pro4thArea { display: none; }
+	section { width: 100%; margin: 0; float: none; }
+	section img { width: 100%; }
+	.mproBan03 { width: 386px; height: 400px; margin: 0 auto; display: block; text-align: center; }
+	.mproBan03 img { width: 100%; }
+	.proBan02, .proBan03 { display: none; }
+
+	/* 돌아가는 상품리스트 - Swiper 수정 */
+	.swiper-container { width: 100%; height: auto; border: 0; }
+	div.pvnx { top: 180px; }
+	.swiper-pagination { margin-bottom: 0; padding-bottom: 25px; }
+	.swiper-button-prev { left: 20px; }
+	.swiper-button-next { right: 20px; }
+	.rollimgPro h3 { margin-top: -10px; }
+
+	/* 구분바 */
+	.pinkbar { width: 104px; height: 3px; margin: 50px auto; background-color: #f57a9a; }
+
+}
+
+@media all and (max-width:320px) {
+	/* 배너들 */
+	.mmainBan { width: 100%; }
+	.mmainBan div.banimg { width: 100%; height: auto; margin: 15px auto; }
+	.mproBan03 { width: 100%; height: auto; }
+	section h3 { font-size: 30px; }
+	section p { font-size: 12px; }
+
+	
+}
