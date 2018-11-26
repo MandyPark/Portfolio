@@ -38,15 +38,16 @@ $(function(){
 	$("#next").click(function(){
 		// 다음 번호로 바뀜
 		pageNum += 1;
-		if(pageNum>pageTotal){ // 마지막페이지를 더 안넘어가도록
-			pageNum = pageTotal;
+		if(pageNum>pageTotal){ // 마지막페이지를 넘기면 첫페이지로
+			$(".workImg li").first().appendTo(".workImg");
+			$(".explain li").first().appendTo(".explain");
+			$("p.now").text(pageNum);
 		} else {
 			// 다음 그림과 내용 + 인덱스로 바뀜
 			$(".workImg li").first().appendTo(".workImg");
 			$(".explain li").first().appendTo(".explain");
 			$("p.now").text(pageNum);
 		}
-		console.log(pageNum);
 	});
 
 	// prev 버튼 누르면 이전 컨텐츠로
@@ -61,7 +62,6 @@ $(function(){
 			$(".explain li").last().prependTo(".explain");
 			$("p.now").text(pageNum);
 		}
-		console.log(pageNum);
 	});
 
 });
