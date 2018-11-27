@@ -56,7 +56,7 @@ section { width: 100%; overflow: hidden; background: #fff; }
 .go_top a { display: block; text-indent: -9999%; }
 
 /* 노랑 버튼*/
-.yellobtn { width: 224px; height: 44px; border-radius: 22px; background-color: #f7e215; margin: 40px auto 70px; font-size: 18px; font-weight: bold; text-align: center; line-height: 40px; clear: both; }
+.yellobtn { width: 224px; height: 44px; border-radius: 22px; background-color: #f7e215; margin: 40px auto 70px; font-size: 18px; font-weight: bold; text-align: center; line-height: 44px; clear: both; }
 .yellobtn a { width: 100%; height: 100%; display: block; color: #fff; text-shadow: 0 0 5px #eec507; }
 
 /* 섹션1 */
@@ -121,6 +121,7 @@ p.new_mini { width: 50px; height: 50px; background: url(../images/new_mini.png) 
 
 /* 푸터 */
 footer { width: 100%; height: 180px; background: #fff; padding-top: 20px; box-sizing: border-box; }
+footer a { color: #aaa; }
 .info { margin: auto; color: #aaa; text-align: center; }
 .info li { text-align: center; line-height: 24px; display: inline;}
 .info li:after { content: "|"; margin: 0 5px; }
