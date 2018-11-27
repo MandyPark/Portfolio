@@ -8,7 +8,7 @@ body { font-family: 'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; f
 
 /* 탑메뉴 */
 header { width: 100%; height: 60px; background-color: #fff; border-bottom: 1px solid #f4f4f4; position: fixed; z-index: 1000; }
-header h1 { width: 202px; height: 32px; background: url(../images/logo.png) no-repeat; text-indent: -9999%; position: absolute; top: 14px; left: 50%; right: 50%; margin: auto; transform: translateX(-50%); }
+header h1 { width: 202px; height: 32px; background: url(../images/logo_m.png) no-repeat; background-size: contain; text-indent: -9999%; position: absolute; top: 14px; left: 50%; right: 50%; margin: auto; transform: translateX(-50%); }
 
 .gnbbtn { width: 20px; height: 12px; position: absolute; right: 20px; top: 23px; cursor: pointer; }
 .gnbbtn span { width: 20px; height: 2px; background-color: #01493b; box-sizing: border-box; display: inline-block; position: absolute; right: 0; transition: .3s; }
@@ -29,8 +29,8 @@ header h1 { width: 202px; height: 32px; background: url(../images/logo.png) no-r
 .sns div { width: 26px; height: 26px; text-indent: -9999%; float: left; transition: .3s; }
 .sns div:hover { opacity: .7; }
 .sns div a { display: block; }
-.sns div:nth-child(1) { background: url(../images/sns_facebook.png) no-repeat; margin-right: 10px; }
-.sns div:nth-child(2) { background: url(../images/sns_instagram.png) no-repeat; }
+.sns div:nth-child(1) { background: url(../images/sns_facebook.png) no-repeat; background-size: contain; margin-right: 10px; }
+.sns div:nth-child(2) { background: url(../images/sns_instagram.png) no-repeat; background-size: contain; }
 
 /* 탑배너 */
 .mtopbanner { width: 100%; height: 100%; position: relative; }
@@ -104,14 +104,14 @@ p.explain { line-height: 20px; }
 .bestmenu li:last-child { margin-bottom: 0; }
 .bestimg { width: 100%; height: 254px; background-color: #01493b; position: relative; }
 .bestimg img { position: absolute; top: 0; left: 50%; right: 50%; transform: translateX(-50%);}
-p.new { width: 70px; height: 70px; background: url(../images/new.png) no-repeat; position: absolute; z-index: 700; }
-p.new_mini { width: 50px; height: 50px; background: url(../images/new_mini.png) no-repeat; position: absolute; z-index: 700; }
+p.new { width: 70px; height: 70px; background: url(../images/new.png) no-repeat; background-size: contain; position: absolute; z-index: 700; }
+p.new_mini { width: 50px; height: 50px; background: url(../images/new.png) no-repeat; background-size: contain; position: absolute; z-index: 700; }
 .besttxt { width: 100%; height: 141px; background-color: #fff; border-bottom: 1px solid #ddd; box-sizing: border-box; padding-top: 45px; }
 .besttxt p:first-child { font-size: 12px; color: #8ec63f; }
 .besttxt p:last-child { color: #555; margin-top: 10px; }
 
-.frachise { width: 99%; margin: 60px auto 0; overflow: hidden; }
-.frachise li { width: 100%; border-bottom: 1px solid #ddd; margin: 0; }
+.frachise { width: 99.5%; margin: 60px auto 0; overflow: hidden; }
+.frachise li { width: 100%; margin-bottom: 20px; }
 .frachise li:last-child { margin-bottom: 0; }
 .frachimg { width: 45%; box-sizing: border-box; float: left; }
 .frachimg img { width: 100%; vertical-align: top; }

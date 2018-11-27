@@ -8,7 +8,7 @@ body { font-family: 'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; f
 
 /* 탑메뉴 */
 header { width: 100%; height: 80px; background-color: #fff; border-bottom: 1px solid #f4f4f4; position: fixed; z-index: 1000; }
-header h1 { width: 202px; height: 32px; background: url(../images/logo.png) no-repeat; text-indent: -9999%; position: absolute; top: 26px; left: 40px; }
+header h1 { width: 202px; height: 32px; background: url(../images/logo.png) no-repeat;  text-indent: -9999%; position: absolute; top: 26px; left: 40px; }
 header h1 a { display: block; }
 .gnb { width: 460px; height: 80px; overflow: hidden; position: absolute; top: 0; left: 50%; right: 50%; margin: 0 auto; transform: translateX(-50%); }
 .gnb li { height: 80px; text-align: center; line-height: 80px; margin-right: 40px; float: left; }
@@ -20,8 +20,8 @@ header h1 a { display: block; }
 .sns div { width: 26px; height: 26px; text-indent: -9999%; float: left; transition: .3s; }
 .sns div:hover { opacity: .7; }
 .sns div a { display: block; }
-.sns div:nth-child(1) { background: url(../images/sns_facebook.png) no-repeat; margin-right: 10px; }
-.sns div:nth-child(2) { background: url(../images/sns_instagram.png) no-repeat; }
+.sns div:nth-child(1) { background: url(../images/sns_facebook.png) no-repeat; background-size: contain; margin-right: 10px; }
+.sns div:nth-child(2) { background: url(../images/sns_instagram.png) no-repeat; background-size: contain; }
 
 /* 탑배너 */
 .topbanner { width: 100%; height: 100%; position: relative; }
@@ -97,7 +97,7 @@ p.explain {  }
 .bestmenu li:last-child { margin-right: 0; }
 .bestimg { width: 100%; height: 254px; background-color: #01493b; position: relative; }
 .bestimg img { position: absolute; top: 0; left: 0; }
-p.new { width: 70px; height: 70px; background: url(../images/new.png) no-repeat; position: absolute; z-index: 700; }
+p.new { width: 70px; height: 70px; background: url(../images/new.png) no-repeat; background-size: contain; position: absolute; z-index: 700; }
 .besttxt { width: 100%; height: 141px; background-color: #fff; border-bottom: 1px solid #ddd; box-sizing: border-box; padding-top: 45px; }
 .besttxt p:first-child { font-size: 12px; color: #8ec63f; }
 .besttxt p:last-child { color: #555; margin-top: 10px; }
