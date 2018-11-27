@@ -103,7 +103,7 @@ p.explain { line-height: 20px; }
 .bestmenu li { width: 100%; margin-bottom: 20px; }
 .bestmenu li:last-child { margin-bottom: 0; }
 .bestimg { width: 100%; height: 254px; background-color: #01493b; position: relative; }
-.bestimg img { position: absolute; top: 0; left: 0; }
+.bestimg img { position: absolute; top: 0; left: 50%; right: 50%; transform: translateX(-50%);}
 p.new { width: 70px; height: 70px; background: url(../images/new.png) no-repeat; position: absolute; z-index: 700; }
 p.new_mini { width: 50px; height: 50px; background: url(../images/new_mini.png) no-repeat; position: absolute; z-index: 700; }
 .besttxt { width: 100%; height: 141px; background-color: #fff; border-bottom: 1px solid #ddd; box-sizing: border-box; padding-top: 45px; }
