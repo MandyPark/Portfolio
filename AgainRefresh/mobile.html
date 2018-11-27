@@ -10,26 +10,18 @@
 		<title>Again Refresh :: 샐러드볼전문점 어게인리프레쉬</title>
 		<link rel="stylesheet" href="../common/reset.css">
 		<link rel="stylesheet" href="css/swiper.min.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mstyle.css">
 		<style></style>
 		<script src="../common/jquery-3.3.1.min.js"></script>
 		<script src="../common/prefixfree.min.js"></script>
-		<script>
-			/* iPhone 아이폰 / iPad 아이패드 / Android 안드로이드 / WebOS 웹 OS */
-			var userAgent = navigator.userAgent;
-			// alert(userAgent);
-	 	  var smartPhones = ['iphone', 'ipad', 'android'];
-		  for(var i in smartPhones) {
-		 		if(navigator.userAgent.toLowerCase().match(new RegExp(smartPhones[i]))) {
-		 			alert('스마트폰 페이지로 이동합니다.');
-		 			location = 'mobile.html';
-		  	}
-			}
-		</script>
 	</head>
-	<body>
+	<body id="go_top">
 		<header>
 			<h1><a href="index.html">Again Refresh</a></h1>
+			<div class="gnbbtn">
+				<span></span>
+				<span></span>
+			</div>
 			<ul class="gnb">
 				<li class="on"><a href="#">홈</a></li>
 				<li><a href="#">브랜드</a></li>
@@ -38,37 +30,39 @@
 				<li><a href="#">매장</a></li>
 				<li><a href="#">커뮤니티</a></li>
 				<li><a href="#">쇼핑몰</a></li>
+				<li>
+					<div class="sns">
+						<div><a href="https://www.facebook.com/againrefresh" target="_blank">facebook</a></div>
+						<div><a href="https://www.instagram.com/againrefresh" target="_blank">instagram</a></div>
+					</div>
+				</li>
 			</ul>
-			<div class="sns">
-				<div><a href="https://www.facebook.com/againrefresh" target="_blank">facebook</a></div>
-				<div><a href="https://www.instagram.com/againrefresh" target="_blank">instagram</a></div>
-			</div>
 		</header>
-		<div class="topbanner">
-			<div class="toptxt">
-				<h2>Once a day, Again Refresh</h2>
-				<p>매일 아침, 정성들여 준비하는 신선한 재료의 샐러드를 만나보세요</p>
+		<div class="mtopbanner">
+			<div class="mtoptxt">
+				<h2>Once a day,<br>Again Refresh</h2>
+				<p>매일 아침, 정성들여 준비하는<br>신선한 재료의 샐러드를 만나보세요</p>
 			</div>
-			<ul class="topbtn">
-				<li class="btn btnon"></li>
-				<li class="btn "></li>
-				<li class="btn "></li>
-			</ul>
-			<ul class="topimg">
+			<ul class="mtopimg">
 				<li class="forword"></li>
 				<li class="backword"></li>
 				<li class="backword"></li>
 			</ul>
-			
 		</div>
+
+		<div class="go_top"><a href="#go_top">Top</a></div>
+
 		<section class="sec1">
 			<div class="about">
-				<h2>Once a day, Again Refresh</h2>
-				<h3>하루 한끼 건강해지는 습관</h3>
-				<p>직접 손질하고 마리네이드하는 연어와 부드럽고 신선한 리코타치즈,<br>
-				건강과 다이어트를 위한 클렌즈 주스, 산지 농장에서 직접 공수하는 친환경 채소&hellip;<br>
-				이 모든 신선함이 매일 아침 어게인 리프레쉬에서 시작됩니다.</p>
 				<div class="juice"><img src="images/sideimg01.png" alt="juice image"></div>
+				<h2>Once a day,<br>Again Refresh</h2>
+				<h3>하루 한끼 건강해지는 습관</h3>
+				<p>직접 손질하고 마리네이드하는 연어와<br>
+					부드럽고 신선한 리코타치즈,<br>
+				건강과 다이어트를 위한 클렌즈 주스,<br>
+				산지 농장에서 직접 공수하는 친환경 채소&hellip;<br>
+				이 모든 신선함이 매일 아침<br>
+			어게인 리프레쉬에서 시작됩니다.</p>
 				<div class="salad"><img src="images/sideimg02.png" alt="salad image"></div>
 			</div>
 		</section>
@@ -117,25 +111,25 @@
 		</section>
 		<section class="sec4">
 			<h3>Again Refresh Franchise</h3>
-			<p class="explain">건강하고 성공적인 창업 솔루션, 함께하는 가맹점들을 만나보세요.</p>
-			<ul class="bestmenu">
+			<p class="explain">건강하고 성공적인 창업 솔루션,<br>함께하는 가맹점들을 만나보세요.</p>
+			<ul class="frachise">
 				<li><a href="#">
-					<div class="bestimg"><p class="new"></p><img src="images/franchise01.jpg" alt="프렌차이즈01"></div>
-					<div class="besttxt">
+					<div class="frachimg"><p class="new_mini"></p><img src="images/franchise01.jpg" alt="프렌차이즈01"></div>
+					<div class="frachtxt">
 						<p>New Again Refresh</p>
 						<p>천안신부점 OPEN 2018.10.23</p>
 					</div>
 				</a></li>
 				<li><a href="#">
-					<div class="bestimg"><img src="images/franchise02.jpg" alt="프렌차이즈02"></div>
-					<div class="besttxt">
+					<div class="frachimg"><img src="images/franchise02.jpg" alt="프렌차이즈02"></div>
+					<div class="frachtxt">
 						<p>New Again Refresh</p>
 						<p>강남점 OPEN 2018.02.15</p>
 					</div>
 				</a></li>
 				<li><a href="#">
-					<div class="bestimg"><img src="images/franchise03.jpg" alt="프렌차이즈03"></div>
-					<div class="besttxt">
+					<div class="frachimg"><img src="images/franchise03.jpg" alt="프렌차이즈03"></div>
+					<div class="frachtxt">
 						<p>New Again Refresh</p>
 						<p>장충점 OPEN 2018.02.10</p>
 					</div>
@@ -145,7 +139,7 @@
 		</section>
 		<footer>
 			<ul class="info">
-				<li>사업자 카란F&B</li><li>대표자 한성순</li><li>사업자등록번호 834-86-00479</li><li>연락처 02-2678-8326</li><li>사업장 소재지 : 서울 강남구 논현로153길 57 2층</li><li>© 2018 Again Refresh, All right reserved.</li>
+				<li>사업자 카란F&B</li><li>연락처 02-2678-8326</li><br><li>대표자 한성순</li><li>사업자등록번호 834-86-00479</li><br><li>사업장 소재지 : 서울 강남구 논현로153길 57 2층</li><br><li>© 2018 Again Refresh, All right reserved.</li>
 			</ul>
 		</footer>
 		
@@ -158,11 +152,15 @@
 	  <!-- Initialize Swiper -->
 	  <script>
 	    var swiper = new Swiper('.swiper-container', {
-	      slidesPerView: 3,
-	      spaceBetween: 2,
+	      slidesPerView: 1,
+	      spaceBetween: 100+"%",
 	      pagination: {
 	        el: '.swiper-pagination',
 	        clickable: true,
+	      },
+	      autoplay: {
+	        delay: 3000,
+	        disableOnInteraction: false,
 	      },
 	    });
 	  </script>
