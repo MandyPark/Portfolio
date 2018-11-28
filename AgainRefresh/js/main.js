@@ -26,12 +26,12 @@ setInterval(function(){
 
 
 // 모바일 메뉴버튼 클릭하면
-$(".gnb").hide();
+$(".mgnb").hide();
 $(".gnbbtn").click(function(){
 	// =모양이 x모양으로 바뀌고
 	$(".gnbbtn span:nth-child(1)").toggleClass("onx1");
 	$(".gnbbtn span:nth-child(2)").toggleClass("onx2");
-	$(".gnb").slideToggle();
+	$(".mgnb").slideToggle();
 });
 
 // 모바일 메인 프랜차이즈 텍스트박스 영역
