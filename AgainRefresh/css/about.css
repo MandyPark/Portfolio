@@ -60,7 +60,8 @@ section h1 { font-family: 'Raleway', sans-serif; font-size: 44px; margin-bottom:
 .con3 div.txt2 ul li { line-height: 22px; margin-bottom: 10px; padding-left: 10px; }
 
 
-
+.gosite { width: 220px; height: 60px; font-size: 18px; margin: 60px auto 0; text-align: center; line-height: 60px; background-color: #f7e215; text-shadow: 0 0 5px #f6aa16; }
+.gosite a { color: #fff; }
 
 
 
