@@ -18,7 +18,7 @@ section h1 { font-family: 'Raleway', sans-serif; font-size: 44px; margin-bottom:
 .con1 { margin-bottom: 60px; }
 .con1:last-child { margin-bottom: 0; }
 .con1 h2 { font-family: 'Raleway', sans-serif; font-size: 30px; margin-bottom: 30px; }
-.con1 p.contxt { text-align: justify; letter-spacing: -1px; line-height: 24px; }
+.con1 p.contxt { text-align: justify; line-height: 20px; margin-top: 15px; }
 .con1 ul.tag li { padding: 5px 15px; margin-right: 20px; border-radius: 15px; display: inline-block; background: #ebebeb; transition: .3s; }
 .con1 ul.tag li:hover { background: #f7e215; }
 
