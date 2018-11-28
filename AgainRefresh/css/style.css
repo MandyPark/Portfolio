@@ -57,7 +57,7 @@ section { width: 100%; overflow: hidden; background: #fff; }
 .about { width: 660px; height: 600px; margin: 0 auto; padding-top: 140px; text-align: center; position: relative; }
 .about h2 { font-family: 'FortCollinsScriptDEMO'; font-size: 80px; color: #f7e215; }
 .about h3 { font-size: 20px; color: #8ec63f; margin-top: 20px; }
-.about p { line-height: 30px; margin-top: 30px; }
+.about p { line-height: 24px; margin-top: 30px; }
 .about div { position: absolute;}
 .about div.juice { width: 360px; height: 428px; top: 86px; left: -400px; }
 .about div.salad { width: 410px; height: 406px; top: 97px; right: -500px; }
