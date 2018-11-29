@@ -141,7 +141,9 @@ footer a { color: #aaa; }
 	.about div.juice { width: 30%; top: 27%; bottom: 73%; left: -30%; transform: translateY(-50%); }
 	.about div.salad { width: 40%; top: 25%; bottom: 75%; right: -50%; transform: translateY(-50%); }
 	.bestimg { height: 700px; }
-	.mtopimg li { width: 100%; height: 100%; float: left; background-size: cover; position: absolute; transition: 2s; }
+	.mtopimg li:nth-child(1) { background-size: cover; }
+	.mtopimg li:nth-child(2) { background-size: cover; }
+	.mtopimg li:nth-child(3) { background-size: cover; }
 	.frachtxt { padding-top: 140px; }
 }
 
@@ -153,9 +155,6 @@ footer a { color: #aaa; }
 	.about div.juice { width: 30%; top: 30%; bottom: 70%; left: -30%; transform: translateY(-50%); }
 	.about div.salad { width: 40%; top: 30%; bottom: 70%; right: -50%; transform: translateY(-50%); }
 	.bestimg { height: 500px; }
-	.mtopimg li:nth-child(1) { background-size: cover; }
-	.mtopimg li:nth-child(2) { background-size: cover; }
-	.mtopimg li:nth-child(3) { background-size: cover; }
 	.frachtxt { padding-top: 100px; }
 
 }
