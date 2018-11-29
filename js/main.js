@@ -30,8 +30,9 @@ $(function(){
 		});
 
 		// Web site
-		$(".idx0 li").eq(0).css({"top":-117+y/120,"right":65.5+x/900+"%"});
-		$(".idx0 li").eq(1).css({"top":23-y/150,"right":45.8+x/1200+"%"});
+		$(".idx0 li").eq(0).css({"top":-117+y/120,"right":55+x/900+"%"});
+		$(".idx0 li").eq(1).css({"top":60-y/150,"right":55+x/1200+"%"});
+		$(".idx0 li").eq(2).css({"top":-120-y/130,"right":75+x/1600+"%"});
 		$("#pfList li").eq(0).mouseenter(function(){
 			$(".pfImg").stop().fadeOut(300);
 			$(".idx0").stop().fadeIn(2000);

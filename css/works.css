@@ -50,5 +50,6 @@ content { width: 36%; height: 100%; position: absolute; top: 0; right: 0; }
 .aboutTxt { height: 300px; position: absolute; left: 100px; top: 50%; bottom: 50%; margin: auto; }
 content h2 { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; font-size: 33px; font-weight: bold; text-indent: -5px; letter-spacing: -2px; }
 content h3 { font-family: 'Raleway', sans-serif; font-size: 14px;  font-weight: 700; }
-content p { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; line-height: 30px; letter-spacing: -1px; margin-top: 50px; }
+content p { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; line-height: 24px; letter-spacing: -1px; margin-top: 10px; }
+content p:first-child { margin-top: 50px; }
 

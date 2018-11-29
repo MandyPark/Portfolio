@@ -21,8 +21,9 @@ body { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dot
 .pfImg { width: 100%; position: absolute; z-index: 940; }
 .pfImg li { position: absolute; }
 
-.idx0 li:nth-child(1) { top: -117px; right: 65.5%;}
-.idx0 li:nth-child(2) { top: 23px; right: 45.8%; z-index: 53; }
+.idx0 li:nth-child(1) { top: -117px; right: 55%;}
+.idx0 li:nth-child(2) { top: 60px; right: 55%; z-index: 52; }
+.idx0 li:nth-child(3) { top: -120px; right: 75%; z-index: 53; }
 
 .idx1 li:nth-child(1) { bottom: -228px; right: 85.1%; z-index: 53; }
 .idx1 li:nth-child(2) { bottom: -228px; right: 80.1%; z-index: 51; }
