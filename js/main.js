@@ -66,8 +66,8 @@ $(function(){
 			$(".idx3").stop().fadeIn(2000);
 		});
 		// Poster
-		$(".idx4 li").eq(0).css({"top":-140+y/60,"right":74.75+x/900+"%"});
-		$(".idx4 li").eq(1).css({"top":-40-y/50,"right":52.75+x/800+"%"});
+		$(".idx4 li").eq(0).css({"top":-200-y/50,"right":70+x/800+"%"});
+		$(".idx4 li").eq(1).css({"top":-150+y/60,"right":51+x/900+"%"});
 		$("#pfList li").eq(4).mouseenter(function(){
 			$(".pfImg").stop().fadeOut(300);
 			$(".idx4").stop().fadeIn(2000);
