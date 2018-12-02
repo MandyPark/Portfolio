@@ -12,7 +12,7 @@ header { width: 100%; height: 136px; position: absolute; top: 0; z-index: 1000; 
 h1 { width: 82px; height: 50px; background: url(../images/logo_mobile.png) no-repeat; background-size: cover; margin: 0 auto; }
 h1 a { width: 100%; height: 100%; display: block; text-indent: -9999%; }
 .gnbWrap { width: 100%; height: 70px; background: rgba(255,255,255,.2); }
-.gnb { width: 316px; line-height: 70px; margin: 0 auto; transform: translateX(20px); position: relative; }
+.gnb { width: 316px; line-height: 70px; margin: 0 auto; transform: translateX(40px); position: relative; }
 .gnb li { float: left; }
 .gnb li.onm:before { content: ""; width: 23px; height: 53px; display: block; background: url(../images/ornament.png) no-repeat; position: absolute; top: 0px; left: -30px; animation: shake 2s ease-in-out infinite; }
 .gnb li:after { content: "|"; font-size: 14px; margin: 0 30px; opacity: .7; }
@@ -74,7 +74,7 @@ section h4 { text-indent: -9999%; margin: 0 auto; }
 }
 .ribbon1 { width: 149px; height: 149px; background: url(../images/ribbon01.png) no-repeat; position: absolute; top: 20px; left: 0px; z-index: 800; }
 
-.evt2 { height: 920px; top: 1500px; }
+.evt2 { height: 880px; top: 1500px; }
 .evt2 h3 { background: url(../images/event02.png) no-repeat; }
 .evt2 h4 { width: 302px; height: 55px; background: url(../images/mevt_title02.png) no-repeat; }
 .evt2 .gobtn { width: 322px; height: 48px; margin: 40px auto; background: url(../images/btn_gocake.png) no-repeat; text-indent: -9999%; }
@@ -84,4 +84,29 @@ section h4 { text-indent: -9999%; margin: 0 auto; }
 .ribbon2 { width: 149px; height: 149px; background: url(../images/ribbon02.png) no-repeat; position: absolute; top: -15px; right: -15px; }
 
 /* 푸터 */
-footer { font-family: 'Noto Serif', serif; width: 100%; height: 140px; text-align: center; line-height: 140px; position: absolute; top: 2420px; }
+footer { font-family: 'Noto Serif', serif; width: 100%; height: 100px; text-align: center; line-height: 100px; position: absolute; top: 2380px; }
+
+
+@media all and (max-width:375px) { /* iPhone 6~ */
+  body { font-size: 14px; }
+  .text { font-size: 14px; line-height: 30px; }
+  .titWrap h2 { width: 330px; height: 202px; background-size: cover; }
+  .evt2 .photo { width: 280px; }
+  .evt2 { height: 860px; }
+  footer { top: 2360px; }
+  .ribbon1 { width: 120px; height: 120px; background-size: cover; top: 24px; left: 3px; }
+  .ribbon2 { width: 120px; height: 120px; background-size: cover; top: -12px; right: -12px; }
+}
+
+@media all and (max-width:320px) {
+  body { font-size: 13px; }
+  .text { font-size: 13px; line-height: 30px; }
+  .evt1 h4 { width: 260px; height: 70px; background: url(../images/mevt_title01.png) no-repeat; background-size: cover; }
+  .evt2 h4 { width: 270px; height: 49px; background: url(../images/mevt_title02.png) no-repeat; background-size: cover; }
+  .titWrap h2 { width: 300px; height: 184px; }
+  .gnb { transform: translateX(50px); }
+  .evt2 .photo { width: 260px; }
+  .evt2 .gobtn { width: 260px; height: 37px; background-size: cover; }
+  .evt2 { height: 820px; }
+  footer { top: 2320px; }
+}
