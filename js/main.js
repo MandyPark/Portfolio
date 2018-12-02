@@ -73,18 +73,18 @@ $(function(){
 			$(".idx4").stop().fadeIn(2000);
 		});
 		// Magazine
-		$(".idx5 li").eq(0).css({"top":-100+y/60,"right":50.8+x/800+"%"});
-		$("#pfList li").eq(5).mouseenter(function(){
-			$(".pfImg").stop().fadeOut(300);
-			$(".idx5").stop().fadeIn(2000);		
-		});
+		// $(".idx5 li").eq(0).css({"top":-100+y/60,"right":50.8+x/800+"%"});
+		// $("#pfList li").eq(5).mouseenter(function(){
+		// 	$(".pfImg").stop().fadeOut(300);
+		// 	$(".idx5").stop().fadeIn(2000);		
+		// });
 		// Banner
-		$(".idx6 li").eq(0).css({"top":-120+y/80,"right":68.25+x/900+"%"});
-		$(".idx6 li").eq(1).css({"top":-20-y/100,"right":43.75+x/800+"%"});
-		$(".idx6 li").eq(2).css({"top":125-y/90,"right":71.5-x/900+"%"});
-		$("#pfList li").eq(6).mouseenter(function(){
-			$(".pfImg").stop().fadeOut(300);
-			$(".idx6").stop().fadeIn(2000);
-		});
+		// $(".idx6 li").eq(0).css({"top":-120+y/80,"right":68.25+x/900+"%"});
+		// $(".idx6 li").eq(1).css({"top":-20-y/100,"right":43.75+x/800+"%"});
+		// $(".idx6 li").eq(2).css({"top":125-y/90,"right":71.5-x/900+"%"});
+		// $("#pfList li").eq(6).mouseenter(function(){
+		// 	$(".pfImg").stop().fadeOut(300);
+		// 	$(".idx6").stop().fadeIn(2000);
+		// });
 	});
 });
