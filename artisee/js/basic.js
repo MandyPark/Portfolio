@@ -1,5 +1,5 @@
 setInterval(function(){
-	$(".lights li:nth-child(4)").toggleClass("opc5");
+	$(".lights li:nth-child(4)").toggleClass("opc8");
 },4000);
 setInterval(function(){
 	$(".lights li:nth-child(3)").toggleClass("opc0");

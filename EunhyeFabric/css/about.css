@@ -7,7 +7,7 @@ body { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dot
 ::selection { color: #222; background-color: #f0a1b2; }
 
 
-header { width: 1024px; height: 500px; margin: 100px auto 0; background: url(../images/abouttit.jpg) no-repeat; position: relative; }
+header { width: 1026px; height: 500px; margin: 100px auto 0; background: url(../images/abouttit.jpg) no-repeat; position: relative; }
 header .tit { text-align: center; }
 .tit p { font-family: 'Noto Serif KR', serif; line-height: 70px; color: #fff; text-shadow: 0 0 40px rgba(0,0,0,.2); }
 .tit p:nth-child(1) { font-size: 80px; font-weight: 600; padding-top: 190px; }

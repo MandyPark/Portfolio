@@ -32,10 +32,10 @@ h1 a { width: 100%; height: 100%; display: block; text-indent: -9999%; }
 .lights li { width: 100%; height: 100%; position: absolute; background-size: cover; background-position: top center; transition: 1s; }
 .lights li:nth-child(4) { background: url(../images/lights01.png) no-repeat; }
 .lights li:nth-child(3) { background: url(../images/lights02.png) no-repeat; opacity: 0; }
-.lights li:nth-child(2) { background: url(../images/lights03.png) no-repeat; opacity: .5; }
+.lights li:nth-child(2) { background: url(../images/lights03.png) no-repeat; opacity: .2; }
 .lights li:nth-child(1) { background: url(../images/main_img.jpg) no-repeat; }
 .opc0 { opacity: 0; }
-.opc5 { opacity: .5; }
+.opc8 { opacity: .8; }
 .opc10 { opacity: 1; }
 
 section { width: 940px; left: 50%; right: 50%; margin: auto; transform: translateX(-50%); background: rgba(255,255,255,.2); position: absolute; z-index: 980; text-align: center; overflow: hidden; }
