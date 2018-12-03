@@ -9,7 +9,7 @@ body { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dot
 
 header { width: 1026px; height: 500px; margin: 100px auto 0; background: url(../images/abouttit.jpg) no-repeat; position: relative; }
 header .tit { text-align: center; overflow: hidden; }
-.tit p { width: 276px; height: 168px; text-indent: -9999%; background: url(../images/about_tit.png) no-repeat; margin: 177px auto 0; }
+.tit p { width: 276px; height: 168px; text-indent: -9999%; background: url(../images/about_tit.png) no-repeat; margin: 130px auto 0; }
 .info { text-align: right; color: #fff; position: absolute; bottom: 40px; right: 40px; line-height: 20px;text-shadow: 0 0 5px rgba(0,0,0,.2); }
 
 .wrap { width: 1024px; margin: 0 auto; padding-bottom: 100px; border: 1px solid #e1e1e1; border-top: 0; overflow: hidden; }
