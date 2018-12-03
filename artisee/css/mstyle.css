@@ -96,6 +96,7 @@ footer { font-family: 'Noto Serif', serif; width: 100%; height: 100px; text-alig
   footer { top: 2360px; }
   .ribbon1 { width: 120px; height: 120px; background-size: cover; top: 24px; left: 3px; }
   .ribbon2 { width: 120px; height: 120px; background-size: cover; top: -12px; right: -12px; }
+  .mainImg { height: 1000px; }
 }
 
 @media all and (max-width:320px) {
@@ -109,4 +110,5 @@ footer { font-family: 'Noto Serif', serif; width: 100%; height: 100px; text-alig
   .evt2 .gobtn { width: 260px; height: 37px; background-size: cover; }
   .evt2 { height: 820px; }
   footer { top: 2320px; }
+  .mainImg { height: 750px; }
 }
