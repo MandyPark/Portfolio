@@ -65,9 +65,11 @@ $(function(){
 			$(".pfImg").stop().fadeOut(300);
 			$(".idx3").stop().fadeIn(2000);
 		});
-		// Poster
-		$(".idx4 li").eq(0).css({"top":-200-y/50,"right":70+x/800+"%"});
-		$(".idx4 li").eq(1).css({"top":-150+y/60,"right":51+x/900+"%"});
+		// Charactor
+		$(".idx4 li").eq(0).css({"top":-50-y/50,"right":82+x/600+"%"});
+		$(".idx4 li").eq(1).css({"top":60+y/70,"right":58+x/800+"%"});
+		$(".idx4 li").eq(2).css({"top":-30+y/50,"right":71.5-x/900+"%"});
+		$(".idx4 li").eq(3).css({"top":-30+y/100,"right":47-x/1000+"%"});
 		$("#pfList li").eq(4).mouseenter(function(){
 			$(".pfImg").stop().fadeOut(300);
 			$(".idx4").stop().fadeIn(2000);
