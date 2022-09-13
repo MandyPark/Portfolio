@@ -67,9 +67,11 @@ $(function(){
 		});
 		// Charactor
 		$(".idx4 li").eq(0).css({"top":-50-y/50,"right":82+x/600+"%"});
-		$(".idx4 li").eq(1).css({"top":60+y/70,"right":58+x/800+"%"});
-		$(".idx4 li").eq(2).css({"top":-30+y/50,"right":71.5-x/900+"%"});
-		$(".idx4 li").eq(3).css({"top":-30+y/100,"right":47-x/1000+"%"});
+		$(".idx4 li").eq(1).css({"top":60+y/70,"right":73.5+x/400+"%"});
+		$(".idx4 li").eq(2).css({"top":-70+y/50,"right":70-x/800+"%"});
+		$(".idx4 li").eq(3).css({"top":-30+y/100,"right":43-x/600+"%"});
+		$(".idx4 li").eq(4).css({"top":70+y/80,"right":62+x/830+"%"});
+		$(".idx4 li").eq(5).css({"top":60-y/90,"right":48+x/700+"%"});
 		$("#pfList li").eq(4).mouseenter(function(){
 			$(".pfImg").stop().fadeOut(300);
 			$(".idx4").stop().fadeIn(2000);
