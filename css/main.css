@@ -10,7 +10,7 @@ body { font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dot
 .wrap { width: 100%; height: 100%; position: relative; }
 
 /* 미리보기 리스트 */
-#pfList { width: 190px; height: 470px; position: absolute; top: 50%; bottom: 50%; right: 20%; margin: auto; z-index: 950; transition: .5s; }
+#pfList { width: 210px; height: 560px; position: absolute; top: 50%; bottom: 50%; right: 20%; margin: auto; z-index: 950; transition: .5s; }
 #pfList li { font-family: 'Raleway', sans-serif; font-size: 35px; font-weight: 200; text-transform: capitalize; line-height: 24px; margin-bottom: 55px; transition: .5s; }
 #pfList li span { font-size: 14px; font-weight: 700; display: block; }
 #pfList li a { color: #222; }
