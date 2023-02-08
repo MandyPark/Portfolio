@@ -17,9 +17,9 @@ content .aboutTxt { height: 720px; position: absolute; left: 250px; top: 50%; bo
 content h2 { font-family: 'Raleway', sans-serif; font-size: 45px; font-weight: 200; }
 content h3 { font-family: 'Raleway', sans-serif; font-size: 14px;  font-weight: 700; }
 content p { padding-right: 30px; letter-spacing: -0.1em; }
-content .career1 { line-height: 30px; margin: 40px 0; }
-content .career2 { line-height: 30px; margin: 40px 0; }
-content .contact { line-height: 30px; }
+content .career1 { line-height: 25px; margin: 25px 0; }
+content .career2 { line-height: 25px; margin: 25px 0; }
+content .contact { line-height: 25px; }
 content .contact img { width: 20px; margin-right: 10px; vertical-align: middle; }
 
 .graph  { width: 300px; margin-top: 40px; position: relative; }
