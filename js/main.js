@@ -68,27 +68,24 @@ $(function(){
 		// Charactor
 		$(".idx4 li").eq(0).css({"top":-50-y/50,"right":82+x/600+"%"});
 		$(".idx4 li").eq(1).css({"top":60+y/70,"right":73.5+x/400+"%"});
-		$(".idx4 li").eq(2).css({"top":-70+y/50,"right":70-x/800+"%"});
-		$(".idx4 li").eq(3).css({"top":-30+y/100,"right":43-x/600+"%"});
+		$(".idx4 li").eq(2).css({"top":-70+y/75,"right":73-x/800+"%"});
+		$(".idx4 li").eq(3).css({"top":-60+y/100,"right":60-x/600+"%"});
 		$(".idx4 li").eq(4).css({"top":70+y/80,"right":62+x/830+"%"});
 		$(".idx4 li").eq(5).css({"top":60-y/90,"right":48+x/700+"%"});
 		$("#pfList li").eq(4).mouseenter(function(){
 			$(".pfImg").stop().fadeOut(300);
 			$(".idx4").stop().fadeIn(2000);
 		});
-		// Magazine
-		// $(".idx5 li").eq(0).css({"top":-100+y/60,"right":50.8+x/800+"%"});
-		// $("#pfList li").eq(5).mouseenter(function(){
-		// 	$(".pfImg").stop().fadeOut(300);
-		// 	$(".idx5").stop().fadeIn(2000);		
-		// });
-		// Banner
-		// $(".idx6 li").eq(0).css({"top":-120+y/80,"right":68.25+x/900+"%"});
-		// $(".idx6 li").eq(1).css({"top":-20-y/100,"right":43.75+x/800+"%"});
-		// $(".idx6 li").eq(2).css({"top":125-y/90,"right":71.5-x/900+"%"});
-		// $("#pfList li").eq(6).mouseenter(function(){
-		// 	$(".pfImg").stop().fadeOut(300);
-		// 	$(".idx6").stop().fadeIn(2000);
-		// });
+		// Social Media
+		$(".idx5 li").eq(0).css({"top":-55-y/50,"right":74+x/600+"%"});
+		$(".idx5 li").eq(1).css({"top":10+y/70,"right":80+x/400+"%"});
+		$(".idx5 li").eq(2).css({"top":60+y/75,"right":77-x/800+"%"});
+		$(".idx5 li").eq(3).css({"top":-60+y/100,"right":60-x/600+"%"});
+		$(".idx5 li").eq(4).css({"top":90+y/80,"right":62+x/830+"%"});
+		$(".idx5 li").eq(5).css({"top":60-y/90,"right":48+x/700+"%"});
+		$("#pfList li").eq(5).mouseenter(function(){
+			$(".pfImg").stop().fadeOut(300);
+			$(".idx5").stop().fadeIn(2000);
+		});
 	});
 });
